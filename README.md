@@ -5,7 +5,7 @@ To use the plugin in your Gitbook project, add the plugin to the `book.json` fil
 
 ```
 {
-    "plugins": ["new-flowchart"]
+    "plugins": ["fox-flowchart"]
 }
 ```
 
@@ -21,7 +21,7 @@ Then, to include a sequence diagram, just wrap your definition in a "sequence" c
     or No?|approved:>http://www.google.com
     c2=>condition: Good idea|rejected
     io=>inputoutput: catch something...|request
-
+    
     st->op1(right)->cond
     cond(yes, right)->c2
     cond(no)->sub1(left)->op1
