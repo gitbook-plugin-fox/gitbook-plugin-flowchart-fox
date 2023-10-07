@@ -1,10 +1,10 @@
 require(["gitbook", "jquery"], function(gitbook, $) {
-  gitbook.events.bind("start", function(e,config) {
+  gitbook.events.bind("page.change", function(e,config) {
     $('code.lang-flow').each(function(index, element) {
       var $element = $(element),
           code = $element.text(),
           chart;
-	  var options = config["flowchart"];	  
+	  var options = gitbook.state.config.pluginsConfig;  
 
       var wrapper = $("<div id='canvas"+index+"'></div>");
       $element.parent().replaceWith(wrapper);
