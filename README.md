@@ -1,4 +1,6 @@
-New Flowchart Plugin
+Forked from [nsdont/gitbook-plugin-new-flowchart](https://github.com/nsdont/gitbook-plugin-new-flowchart),to make sure we can add a custom style for the chart.
+
+Fox Flowchart Plugin
 ==============
 
 To use the plugin in your Gitbook project, add the plugin to the `book.json` file.
@@ -6,6 +8,21 @@ To use the plugin in your Gitbook project, add the plugin to the `book.json` fil
 ```
 {
     "plugins": ["fox-flowchart"]
+}
+```
+
+we can add custom style if necessary:
+
+```javascript
+pluginsConfig:{
+    'flowchart':{        
+        'x': 0,
+        'y': 0,
+        'width':1,
+        'line-width': 1,
+        'line-length': 50,
+         'text-margin': 10       
+    }
 }
 ```
 
@@ -32,4 +49,4 @@ Then, to include a sequence diagram, just wrap your definition in a "sequence" c
 Please reference the [flowchart.js](https://adrai.github.io/flowchart.js/) documentation for details on syntax.
 
 ## Reference
-This project inspiration from [gmassanek/gitbook-plugin-js-sequence-diagram](https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram).
+This project inspiration from [gmassanek/gitbook-plugin-js-sequence-diagram](https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram),forked from [nsdont/gitbook-plugin-new-flowchart](https://github.com/nsdont/gitbook-plugin-new-flowchart)
