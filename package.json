@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-new-flowchart",
+  "name": "gitbook-plugin-fox-flowchart",
   "version": "0.1.0",
   "description": "flowchart.js plugin for gitbook",
   "main": "index.js",
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nsdont/gitbook-plugin-new-flowchart.git"
+    "url": "git+https://github.com/lucumt/gitbook-plugin-fox-flowchart.git"
   },
   "keywords": [
     "flowchart",
     "gitbook"
   ],
-  "author": "NSDont",
+  "author": "lucumt",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nsdont/gitbook-plugin-new-flowchart/issues"
+    "url": "https://github.com/lucumt/gitbook-plugin-fox-flowchart/issues"
   },
-  "homepage": "https://github.com/nsdont/gitbook-plugin-new-flowchart#readme"
+  "homepage": "https://github.com/lucumt/gitbook-plugin-fox-flowchart#readme"
 }
