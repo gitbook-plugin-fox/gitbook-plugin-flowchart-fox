@@ -4,7 +4,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       var $element = $(element),
           code = $element.text(),
           chart;
-	  var options = gitbook.state.config.pluginsConfig;  
+	  var options = gitbook.state.config.pluginsConfig['flowchart'];  
 
       var wrapper = $("<div id='canvas"+index+"'></div>");
       $element.parent().replaceWith(wrapper);
