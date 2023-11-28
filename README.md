@@ -103,7 +103,7 @@ Below is another example with more configuration items:
     "line-color": "black",
     "line-length": 50,
     "line-width": 1.3,
-    "scale": 2,
+    "scale": 21,
     "symbols": {
         "end": {
             "class": "end-element",
