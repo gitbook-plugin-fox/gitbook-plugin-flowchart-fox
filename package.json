@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-fox-flowchart",
-  "version": "0.1.4",
+  "name": "gitbook-plugin-flowchart-fox",
+  "version": "0.0.1",
   "description": "flowchart.js plugin for gitbook",
   "main": "index.js",
   "engines": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucumt/gitbook-plugin-fox-flowchart.git"
+    "url": "git+https://github.com/gitbook-plugin-fox/gitbook-plugin-flowchart-fox.git"
   },
   "keywords": [
     "flowchart",
@@ -20,7 +20,7 @@
   "author": "lucumt",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/lucumt/gitbook-plugin-fox-flowchart/issues"
+    "url": "https://github.com/gitbook-plugin-fox/gitbook-plugin-flowchart-fox/issues"
   },
-  "homepage": "https://github.com/lucumt/gitbook-plugin-fox-flowchart#readme"
+  "homepage": "https://github.com/gitbook-plugin-fox/gitbook-plugin-flowchart-fox#readme"
 }
