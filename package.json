@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-flowchart-fox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "flowchart.js plugin for gitbook",
   "main": "index.js",
   "engines": {
