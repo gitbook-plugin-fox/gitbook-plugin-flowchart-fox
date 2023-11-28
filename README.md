@@ -125,7 +125,9 @@ Below is another example with more configuration items:
 }
 ```
 
+example screenshot:
 
+![flowchart example](flowchart-example.png "flowchart example")
 
 ## Reference
 This project inspiration from [gmassanek/gitbook-plugin-js-sequence-diagram](https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram),forked from [nsdont/gitbook-plugin-new-flowchart](https://github.com/nsdont/gitbook-plugin-new-flowchart)
